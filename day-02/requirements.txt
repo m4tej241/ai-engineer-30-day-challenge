@@ -1,0 +1,4 @@
+# No new dependencies today — streaming is built into the anthropic SDK
+# you already installed for Day 1. Listed here for consistency.
+anthropic>=0.40.0
+python-dotenv>=1.0.0
