@@ -35,7 +35,7 @@ def exercise_1_basic_stream():
     
     with client.messages.stream(model=MODEL, max_tokens=300, messages=[{"role": "user", "content": prompt}]) as stream:
         for text in stream.text_stream:
-            print(text)
+            print(text, end="", flush=True)
         final_message = stream.get_final_message()
 
 

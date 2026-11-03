@@ -9,7 +9,7 @@ Pace: ~1.5 hours/day. Each day has its own folder with a `README.md` (concepts +
 | Day | Topic | Status |
 |---|---|---|
 | 1 | LLM APIs — talking to Claude directly in Python | ✅ done |
-| 2 | Streaming responses | ⬜ |
+| 2 | Streaming responses | ✅ done |
 | 3 | Multi-turn chat (conversation state) | ⬜ |
 | 4 | Pydantic for structured outputs | ⬜ |
 | 5 | Embeddings | ⬜ |
